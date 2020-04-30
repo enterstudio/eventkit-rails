@@ -16,11 +16,11 @@ group :production do
 end
 
 gem 'unicorn'
-gem 'json'
+gem 'json', '>= 2.3.0'
 gem 'bourbon'
 gem 'rails', '4.0.8'
 gem 'sass-rails', '~> 4.0.2'
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 2.7.1'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
@@ -33,7 +33,7 @@ gem 'ember-data-source', '~> 1.0.0.beta'
 gem 'ember-handlebars-template', '~> 0.1.5'
 
 group :doc do
-	gem 'sdoc', require: false
+	gem 'sdoc', '>= 1.0.0', require: false
 end
 
 ruby "2.1.3"
