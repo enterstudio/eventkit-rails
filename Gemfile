@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec'
-	gem 'rspec-rails'
+	gem 'rspec-rails', '>= 8.0.0'
 	gem 'factory_girl'
 	gem 'factory_girl_rails'
 	gem 'rspec_api_test'
